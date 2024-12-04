@@ -1,0 +1,146 @@
+Berikut adalah contoh kode HTML dan CSS untuk membuat sebuah website store sederhana:
+
+**index.html**
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Store</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Contact Us</a></li>
+		</ul>
+	</nav>
+	<main>
+		<h1>Welcome to Our Store</h1>
+		<section id="products">
+			<h2>Our Products</h2>
+			<ul>
+				<li>
+					<img src="product1.jpg" alt="Product 1">
+					<h3>Product 1</h3>
+					<p>$19.99</p>
+					<button>Add to Cart</button>
+				</li>
+				<li>
+					<img src="product2.jpg" alt="Product 2">
+					<h3>Product 2</h3>
+					<p>$29.99</p>
+					<button>Add to Cart</button>
+				</li>
+				<!-- more products here -->
+			</ul>
+		</section>
+		<section id="cart">
+			<h2>Your Cart</h2>
+			<ul>
+				<!-- cart items will be listed here -->
+			</ul>
+			<pTotal: $0.00</p>
+			<button>Checkout</button>
+		</section>
+	</main>
+	<script src="script.js"></script>
+</body>
+</html>
+```
+**styles.css**
+```css
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2rem;
+}
+
+#products {
+	margin-top: 20px;
+}
+
+#products ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#products li {
+	margin-bottom: 20px;
+}
+
+#products img {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 10px;
+}
+
+#cart {
+	margin-top: 20px;
+}
+
+#cart ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#cart li {
+	margin-bottom: 10px;
+}
+
+#cart p {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+#cart button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+```
+**Note:** This is just a basic example, you'll need to add more styles and adjust the layout to fit your needs. Also, you'll need to create the product images and add them to the `img` tags.
+
+You can save these files to a folder on your computer and open the `index.html` file in a web browser to see the result.
+
+This code creates a basic store website with a navigation menu, a products section, and a cart section. The products section lists some sample products with images, names, and prices, and the cart section displays the cart items and the total price.
+
+You can add more features to the website by adding more HTML, CSS, and JavaScript code. For example, you can add a checkout process by creating a separate HTML page for the checkout process, or you can add a form for customer to enter their shipping information.
+
+I hope this helps! Let me know if you have any questions or need further assistance.
